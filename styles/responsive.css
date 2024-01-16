@@ -1,4 +1,12 @@
 @media screen and (max-width: 600px) {
+    .mob-heading {
+        font-size: var(--title-font-mob);
+    }
+
+    .mob-regular {
+        font-size: var(--regular-font-mob);
+    }
+
     .navbar {
         justify-content: space-between;
         margin: auto 1rem;
@@ -57,10 +65,10 @@
     /* Popular Tours */
     #tour {
         margin: 24px auto;
+        height: auto;
     }
 
     .tour-container {
-        border: 2px solid red;
         flex-direction: column;
         margin: auto 1rem;
         gap: 24px;
@@ -71,15 +79,54 @@
         padding-right: 0;
     }
     
-    .tour-text p, ul {
-        /* padding-bottom: 24px; */
-    }
-    
-    .tour-text ul li {
-        /* padding-bottom: 16px; */
-    }
-    
     .tour-image {
         width: 100%;
+    }
+
+    /* Destinaion */
+    #destination {
+        margin: 24px auto;
+    }
+
+    .dest-text {
+        width: 70%;
+        margin: 0 auto;
+        /* margin: auto 1rem; */
+    }
+
+    .dest-images {
+        width: 100%;
+        /* height: auto; */
+        gap: 10px;
+    }
+
+    .row-1, .row-2, .row-3 {
+        grid-template-columns: 1fr;
+        height: auto;
+        margin: auto 1rem;
+        gap: 10px;
+    }
+
+    .row-1 img {
+        width: 100%;
+        height: 176px;
+        border-radius: 20px;
+    }
+
+    .row-2 img {
+        width: 100%;
+        height: 176px;
+        border-radius: 20px;
+    }
+    
+    .row-3 img {
+        width: 100%;
+        height: 176px;
+        border-radius: 20px;
+    }
+
+    .img-text::after  {
+        font-size: var(--title-font-mob);
+        font-weight: 700;
     }
 }

@@ -11,6 +11,7 @@
     --btn-text-color: white;
     --menu-color: #424247;
     --regular-font-mob: 0.875rem;
+    --title-font-mob: 1.25rem;
 }
 
 /* Reset */
@@ -191,4 +192,93 @@ form input, select, button {
 
 .tour-image img {
     width: 100%;
+}
+
+/* Destinaton */
+#destination {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.dest-text {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dest-text p {
+    margin-bottom: 24px;
+}
+
+.dest-images {
+    display: grid;
+    gap: 24px;
+}
+
+.row-1, .row-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+ 
+.row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.row-1, .row-3 img {
+    /* width: 100%; */
+    height: 300px;
+    object-fit: cover;
+}
+
+.row-2 img {
+    /* width: 100%; */
+    height: 286px;
+    object-fit: cover;
+}
+
+.img-text {
+    position: relative;
+}
+
+.img-1::after {
+    content: "Maldives";
+}
+
+.img-2::after {
+    content: "Indonesia";
+}
+
+.img-3::after {
+    content: "Srilanka";
+}
+
+.img-4::after {
+    content: "North America";
+}
+
+.img-5::after {
+    content: "Kashmir";
+}
+
+.img-6::after {
+    content: "Bangladesh";
+}
+
+.img-7::after {
+    content: "Bandarban";
+}
+
+.img-text::after {
+    position: absolute;
+    /* Top-Left corner (not center) */
+    top: 50%;
+    left: 50%;
+    /* transform aligns the text to the center while */
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 800;
 }
