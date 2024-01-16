@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px) {
+    .navbar {
+        /* max-width: var(--max-width-mob); */
+        justify-content: space-between;
+        margin: auto 1rem;
+    }
+    .nav-title {
+        width: 90%;
+    }
+    .nav-title img {
+        width: 1.75rem;
+        height: auto;
+    }
+    .nav-title p {
+        font-size: 1.3rem;
+    }
+    .ham {
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        font-size: 1.3rem;
+        /* padding-right: 1rem; */
+    }
+    .nav-menu {
+        display: none;
+    }
+}
