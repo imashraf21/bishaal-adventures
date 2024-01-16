@@ -6,7 +6,7 @@
     --max-width-mob: 335px;
     --p-color: #ff5400;
     --title-color: #131318;
-    --text-color: rgba(19, 19, 24, 0.7); 
+    --text-color: rgba(19, 19, 24, 0.7);
     --banner-text-color: white;
     --btn-text-color: white;
     --menu-color: #424247;
@@ -42,6 +42,18 @@ a {
 
 .text-regular {
     color: var(--text-color);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.card-heading {
+    color: #131318;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.card-regular {
+    color: #5A5A5D;
     font-weight: 400;
     font-size: 1rem;
 }
@@ -148,7 +160,9 @@ a {
     margin: 15px;
 }
 
-form input, select, button {
+form input,
+select,
+button {
     /* flex-grow: 1; */
     height: 50px;
     /* width: 174px; */
@@ -178,7 +192,8 @@ form input, select, button {
     justify-content: space-between;
 }
 
-.tour-text p, ul {
+.tour-text p,
+ul {
     padding-bottom: 24px;
 }
 
@@ -215,19 +230,21 @@ form input, select, button {
     gap: 24px;
 }
 
-.row-1, .row-3 {
+.row-1,
+.row-3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
- 
+
 .row-2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
 }
 
-.row-1, .row-3 img {
+.row-1,
+.row-3 img {
     /* width: 100%; */
     height: 300px;
     object-fit: cover;
@@ -277,8 +294,66 @@ form input, select, button {
     top: 50%;
     left: 50%;
     /* transform aligns the text to the center while */
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
     color: white;
     font-size: 1.75rem;
     font-weight: 800;
+}
+
+/* Why Choose Us */
+#why-us {
+    max-width: var(--max-width);
+    margin: 100px auto;
+}
+
+.why-us-container {
+    text-align: center;
+}
+
+.why-us-container p {
+    margin-bottom: 24px;
+}
+
+.why-us-row {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 24px;
+}
+.why-us-row-single {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    padding-left: 32px;
+    margin-top: 24px;
+}
+
+.card img {
+    width: 64px;
+    height: 64px;
+    margin: 32px auto;
+}
+
+.card p {
+    width: 85%;
+    margin-bottom: 16px;
+}
+
+.card-1 {
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-3 {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
 }
