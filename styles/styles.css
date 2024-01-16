@@ -36,6 +36,7 @@ a {
 .text-heading {
     color: var(--title-color);
     font-weight: 800;
+    font-size: 2.5rem;
 }
 
 .text-regular {
@@ -155,4 +156,39 @@ form input, select, button {
     padding: 16px;
     color: rgba(19, 19, 24, 0.50);
     font-size: 1rem;
+}
+
+/* Popular Tours */
+#tour {
+    max-width: var(--max-width);
+    height: 550px;
+    margin: 100px auto;
+}
+
+.tour-container {
+    display: flex;
+}
+
+.tour-text {
+    width: 50%;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tour-text p, ul {
+    padding-bottom: 24px;
+}
+
+.tour-text ul li {
+    padding-bottom: 16px;
+}
+
+.tour-image {
+    width: 50%;
+}
+
+.tour-image img {
+    width: 100%;
 }

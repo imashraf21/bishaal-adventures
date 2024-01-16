@@ -53,4 +53,33 @@
     form input, select, button {
         width: 255px;
     }
+
+    /* Popular Tours */
+    #tour {
+        margin: 24px auto;
+    }
+
+    .tour-container {
+        border: 2px solid red;
+        flex-direction: column;
+        margin: auto 1rem;
+        gap: 24px;
+    }
+
+    .tour-text {
+        width: 100%;
+        padding-right: 0;
+    }
+    
+    .tour-text p, ul {
+        /* padding-bottom: 24px; */
+    }
+    
+    .tour-text ul li {
+        /* padding-bottom: 16px; */
+    }
+    
+    .tour-image {
+        width: 100%;
+    }
 }
