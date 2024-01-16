@@ -7,7 +7,10 @@
     --p-color: #ff5400;
     --title-color: #131318;
     --text-color: rgba(19, 19, 24, 0.7); 
+    --banner-text-color: white;
+    --btn-text-color: white;
     --menu-color: #424247;
+    --regular-font-mob: 0.875rem;
 }
 
 /* Reset */
@@ -41,9 +44,14 @@ a {
     font-size: 1rem;
 }
 
+.btn-primary {
+    background-color: var(--p-color);
+    color: var(--btn-text-color);
+}
+
 /* Navigation Bar */
 .navbar {
-    max-width: 1190px;
+    max-width: var(--max-width);
     height: 80px;
     margin: 0 auto;
     display: flex;
@@ -53,7 +61,7 @@ a {
     width: 50%;
     display: flex;
     align-items: center;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
 }
 
 .nav-title img {
@@ -75,7 +83,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 1rem;
+    /* padding-right: 1rem; */
 }
 
 .nav-menu a {
@@ -84,3 +92,67 @@ a {
     font-size: 1.13rem;
 }
 
+/* Banner */
+#banner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.banner-container {
+    /* width: auto; */
+    /* height: 500px; */
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/Group13.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10%;
+    /* padding: 106px 185px; */
+    margin: 10px;
+}
+
+.banner-title {
+    font-size: 4rem;
+    color: var(--banner-text-color);
+    margin-bottom: 1.5rem;
+}
+
+.banner-text {
+    color: var(--banner-text-color);
+    margin-bottom: 1.5rem;
+    padding: 0 20px;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.30);
+    border-radius: 8px;
+    width: 100%;
+    /* margin: 0 auto; */
+    height: 80px;
+}
+
+.form-container form {
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    gap: 24px;
+    margin: 15px;
+}
+
+form input, select, button {
+    /* flex-grow: 1; */
+    height: 50px;
+    /* width: 174px; */
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+}

@@ -1,6 +1,5 @@
 @media screen and (max-width: 600px) {
     .navbar {
-        /* max-width: var(--max-width-mob); */
         justify-content: space-between;
         margin: auto 1rem;
     }
@@ -24,5 +23,34 @@
     }
     .nav-menu {
         display: none;
+    }
+
+    /* Banner */
+    .banner-container {
+        padding: 32px;
+    }
+    
+    .banner-title {
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .banner-text {
+        margin-bottom: 2rem;
+        font-size: var(--regular-font-mob);
+    }
+
+    .form-container {
+        width: 287px;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .form-container form {
+        grid-template-columns: 1fr;
+    }
+    
+    form input, select, button {
+        width: 255px;
     }
 }
