@@ -368,6 +368,56 @@ ul {
     background: rgba(233, 68, 68, 0.05);
 }
 
+/* Membership (Extra Section) */
+#membership {
+    max-width: var(--max-width);
+    margin: 0 auto 100px;
+}
+
+.membership-text {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.membership-text p {
+    margin-bottom: 32px;
+}
+
+.membership-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.membership-card .card-heading {
+    text-align: center;
+    padding: 30px;
+}
+
+.membership-card li {
+    margin-left: 35px;
+    padding-right: 40px;
+}
+
+.mem-card-1 {
+    width: 30%;
+    border-radius: 16px;
+    border: 1px solid rgba(211, 224, 210, 0.3);
+    background-color: rgba(211, 224, 210, 0.8);
+}
+.mem-card-2 {
+    width: 30%;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 225, 0.3);
+    background-color: rgba(255, 255, 225, 0.8);
+}
+.mem-card-3 {
+    width: 30%;
+    border-radius: 16px;
+    border: 1px solid rgba(220, 220, 220, 0.3);
+    background-color: rgba(220, 220, 220, 0.8);
+}
+
 /* Newsletter */
 #newsletter {
     max-width: var(--max-width);

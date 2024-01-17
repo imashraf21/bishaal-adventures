@@ -168,6 +168,21 @@
         margin: 0 auto;
     }
 
+    /* Membership (Extra Section) */
+    #membership {
+        margin: 24px auto;
+    }
+
+    .membership-card {
+        flex-direction: column;
+        gap: 24px;
+        margin: auto 1rem;
+    }
+
+    .mem-card-1, .mem-card-2, .mem-card-3 {
+        width: 100%;
+    }
+
     /* newsletter */
     #newsletter {
         margin: 24px auto;
