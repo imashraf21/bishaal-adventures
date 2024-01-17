@@ -61,6 +61,10 @@ a {
 .btn-primary {
     background-color: var(--p-color);
     color: var(--btn-text-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding-top: 14px;
+    padding-bottom: 13px;
 }
 
 /* Navigation Bar */
@@ -319,6 +323,7 @@ ul {
     /* justify-content: space-between; */
     gap: 24px;
 }
+
 .why-us-row-single {
     display: flex;
     justify-content: space-around;
@@ -356,4 +361,76 @@ ul {
 .card-3 {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+}
+
+/* Newsletter */
+#newsletter {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.newsletter-container {
+    display: flex;
+    gap: 24px;
+}
+
+.news-sub {
+    width: 40%;
+    border-radius: 16px;
+    border: 1px solid var(--p-color);
+    padding: 40px;
+}
+
+.news-sub p {
+    margin-bottom: 16px;
+}
+
+.news-image {
+    width: 60%;
+    position: relative;
+}
+
+.news-image img {
+    width: 100%;
+    height: auto;
+}
+
+.hline {
+    border: 1px solid rgba(19, 19, 24, 0.10);
+    margin: 24px 0;
+}
+
+.newsletter-form input {
+    width: 100%;
+    height: 52px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+.newsletter-form button {
+    width: 100%;
+    height: 52px;
+}
+
+.news-image-text {
+    position: absolute;
+    bottom: calc(10% + 10px);
+    left: calc(60% - 20px);
+    color: white;
+    border-radius: 16px;
+    background-color: var(--p-color);
+    text-align: center;
+    padding: 20px;
+    transform: rotate(-19.628deg);
+}
+
+.news-image-text-1 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.news-image-text-2 {
+    font-size: 2rem;
+    font-weight: 800;
 }

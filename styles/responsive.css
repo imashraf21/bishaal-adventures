@@ -167,4 +167,35 @@
         height: 289px;
         margin: 0 auto;
     }
+
+    /* newsletter */
+    #newsletter {
+        margin: 24px auto;
+    }
+    
+    .newsletter-container {
+        flex-direction: column;
+        margin: auto 1rem;
+    }
+
+    .news-sub {
+        width: 100%;
+    }
+    
+    .news-image {
+        width: 100%;
+    }
+
+    .news-image-text {
+        bottom: calc(10% + 20px);
+        left: calc(50% - 40px);
+    }
+
+    .news-image-text-1 {
+        font-size: 0.9rem;
+    }
+    
+    .news-image-text-2 {
+        font-size: 1.3rem;
+    }
 }
