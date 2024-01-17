@@ -198,4 +198,43 @@
     .news-image-text-2 {
         font-size: 1.3rem;
     }
+
+    /* Footer */
+    #footer {
+        margin-top: 24px;
+        height: auto;
+    }
+
+    .footer-container {
+        max-width: 100%;
+        margin: auto 1rem;
+    }
+
+    .footer-name {
+        padding-top: 36px;
+        align-items: center;
+    }
+
+    .footer-name p {
+        font-size: 1.5rem;
+    }
+    
+    .footer-text {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .footer-text p {
+        font-size: 0.9rem;
+        margin: 16px auto;
+    }
+
+    .footer-links {
+        width: 50%;
+        margin: 0 auto 24px;
+    }
+
+    .footer-credit p {
+        padding-bottom: 35px;
+    }
 }
